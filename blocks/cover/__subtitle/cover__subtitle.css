@@ -6,3 +6,11 @@
     max-width: 360px;
     z-index: 1;
 }
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 36px;
+        max-width: 288px;
+    }
+}

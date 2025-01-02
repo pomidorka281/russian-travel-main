@@ -6,3 +6,10 @@
     align-items: start;
     justify-content: end;
 }
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        grid-row: 2;
+        grid-column: 1;
+    }
+}
